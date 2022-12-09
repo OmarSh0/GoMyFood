@@ -371,7 +371,7 @@ header .navbar a:hover {
         font-size: 2rem;
         width: 400px;
         height: 50px;
-
+        padding-top: 2rem;
     }
 
 }
