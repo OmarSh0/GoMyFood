@@ -114,7 +114,7 @@ header .navbar a:hover {
     border-radius: .5rem;
     position: relative;
     overflow: hidden;
-    z-index: 0;
+    z-index: 1;
     margin-top: 1rem;
 }
 
@@ -178,23 +178,17 @@ header .navbar a:hover {
 }
 
 .image {
-    flex: 40rem;
+    flex:40rem;
 }
 
 .image img {
     width: 100%;
     padding: 4rem;
-    animation: float 3s linear infinite;
+    animation: shake 3s linear infinite;
 }
 
-@keyframes float {
-
-    0%,
-    100% {
-        transform: translateY(0rem);
-    }
-
-    60% {
+@keyframes shake {
+    50% {
         transform: translateY(3rem);
     }
 }
@@ -291,14 +285,16 @@ header .navbar a:hover {
     border-radius: .5rem;
 }
 .popular .box-container .box .price{
-    background-color: var(--red);
+    background-color: #fff;
     position: relative;
     font-size: 2rem;
     border-radius: 1rem;
     padding: .5rem 1rem;
-    color: #fff;
+    color: var(--red);
     margin: .4rem;
     top: 3.9rem; left: -10rem;
+    font-weight: 900;
+    font-style: italic;
 }
 
 .popular .box-container .box h3{
@@ -392,8 +388,6 @@ header .navbar a:hover {
 
     .marquee {
         position: absolute;
-        /* top: 0px; */
-        /* margin-top: 80px; */
         font-size: 2rem;
         width: 400px;
         height: 50px;
