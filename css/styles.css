@@ -386,5 +386,7 @@ header .navbar a:hover {
         font-size: 50%;
     }
 
-    
+    .home .content h3{
+        padding-top: 8rem;
+    }
 }
