@@ -372,8 +372,12 @@ header .navbar a:hover {
         width: 400px;
         height: 50px;
         padding-top: 2rem;
+
     }
 
+    .home .content h3{
+        padding-top: 8rem;
+    }
 }
 
 @media(max-width:400px) {
@@ -382,4 +386,5 @@ header .navbar a:hover {
         font-size: 50%;
     }
 
+    
 }
