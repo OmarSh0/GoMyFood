@@ -268,6 +268,55 @@ header .navbar a:hover {
     transform: translateY(100%);
 }
 
+.popular .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+.popular .box-container .box{
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0.5rem 1rem rgba(0, 0, 0, .1);
+    border: .1rem solid rgba(0, 0, 0, .3);
+    border-radius: .5rem;
+    flex: 1 1 30rem;
+    text-align: center;
+    position: relative;
+}
+
+.popular .box-container .box img{
+    height: 30rem;
+    object-fit: cover;
+    width: 100%;
+    border-radius: .5rem;
+}
+.popular .box-container .box .price{
+    background-color: var(--red);
+    position: relative;
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    color: #fff;
+    margin: .4rem;
+    top: 3.9rem; left: -10rem;
+}
+
+.popular .box-container .box h3{
+    color: #333;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+.popular .box-container .box .stars i{
+    color: gold;
+    font-size: 1.3rem;
+    padding: 1rem .1rem; 
+}
+
+
+
+
+
 #top-btn {
     width: 40px;
     height: 39px;
@@ -289,30 +338,7 @@ header .navbar a:hover {
 }
 
 
-/* .spn {
-    color: var(--red);
-} */
 
-
-
-.popular .popular-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap:1.5rem;
-}
-
-.popular .popular-food{
-    flex: 1 1 50rem;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-}
-
-.popular .popular-container .popular-food img{
-    width: 100%;
-    height: 100%;
-    top: 0;
-}
 
 
 
